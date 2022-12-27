@@ -1,0 +1,172 @@
+/* Laptop screen devices css start */
+
+@media only screen and (max-width: 1350px) {
+    .container {
+        padding: 0 25px;
+    }
+    .logos,
+    .bars {
+        padding-right: 30px;
+    }
+    .logo-inner {
+        max-width: 50px;
+    }
+    .logo-text {
+        font-size: 22px;
+    }
+    .doc-name {
+        padding-left: 30px;
+        padding-right: 15px;
+    }
+    .doc-name-inner {
+        font-size: 26px;
+    }
+    .sel-lang-inner {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .lang-text {
+        padding: 10px 40px 10px 15px;
+        background-position: right 15px center;
+        background-size: 12px auto;
+    }
+    .sel-lang-inner ul li {
+        padding: 5px 15px;
+    }
+    .plans {
+        padding-right: 15px;
+    }
+    .plan {
+        padding: 10px;
+    }
+    .user {
+        padding-left: 15px;
+    }
+    .pro-img-inner {
+        width: 35px;
+        height: 35px;
+    }
+    .user-action li,
+    .pro-name-inner {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .header {
+        padding: 35px 0 25px 0;
+    }
+    .content-item {
+        width: calc(calc(100% - 40px)/2);
+    }
+    .tools:not(.content-tools) {
+        width: 300px;
+    }
+    .main-content {
+        width: calc(100% - 350px);
+    }
+}
+
+
+/* Laptop screen devices css end */
+
+
+/* Mobile device css start */
+
+@media only screen and (max-width: 991px) {
+    .mobile-view {
+        display: block;
+    }
+    .desktop-view {
+        display: none;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .header {
+        padding: 15px 0;
+    }
+    .logos {
+        padding-right: 0;
+        border-right: 0;
+    }
+    .bars {
+        padding-right: 10px;
+    }
+    .header-left-inner {
+        flex-wrap: wrap;
+    }
+    .doc-name {
+        width: calc(100% - 110px);
+        padding-left: 0;
+    }
+    .header-right-inner {}
+    .ads .icon {
+        width: 40px;
+        height: 40px;
+    }
+    .ads-header h3 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .main-content {
+        width: 100%;
+    }
+    .tools {
+        width: 100%;
+    }
+    .main-contents-inner {
+        flex-wrap: wrap;
+    }
+    .content-results,
+    .content-form {
+        width: 100%;
+    }
+    .main-contents {
+        padding-top: 30px;
+    }
+    .content-item {
+        width: calc(calc(100% - 20px)/2)
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .sidebar .plans {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .plans {
+        display: none;
+    }
+    .sidebar .plans {
+        display: block;
+        padding-right: 0;
+        border-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .doc-name {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .content-item {
+        width: 100%;
+    }
+    .content-item.create-new {
+        min-height: 200px;
+    }
+    .tab {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .tabs-links-inner {
+        gap: 0 30px;
+    }
+}
+
+
+/* Mobile device css end */
