@@ -540,6 +540,10 @@ a {
     }
 }
 
+.ads {
+    margin-bottom: 30px;
+}
+
 .ads-inner {
     padding: 30px 30px 25px 30px;
     background: linear-gradient(94.63deg, #DD6275 0%, #5E779F 100%);

@@ -110,7 +110,8 @@
     .main-content {
         width: 100%;
     }
-    .tools {
+    .tools,
+    .tools:not(.content-tools) {
         width: 100%;
     }
     .main-contents-inner {
